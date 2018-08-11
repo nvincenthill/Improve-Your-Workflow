@@ -4,7 +4,7 @@
 
 ## Table of Contents
 
-1.  [Part 1 - Introduction](https://github.com/nvincenthill/streamlineyourworkflow/tree/master/Part%201)
+1.  [Part 1 - Introduction](https://github.com/nvincenthill/streamlineyourworkflow/tree/master/Part%201/PART1.md)
 1.  [Part 2 - Introduction](#requirements)
 1.  [Part 3 - Introduction](#development)
 
