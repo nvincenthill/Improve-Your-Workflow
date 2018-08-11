@@ -1,6 +1,6 @@
-# Streamline your development workflow
+# Improve your development workflow
 
-> This is a non-exhaustive guide to improving the ease and speed of your development. Please find links, examples, and graphics included.
+> This is a non-exhaustive guide to improving the ease and speed of your development.
 
 ## Table of Contents
 
