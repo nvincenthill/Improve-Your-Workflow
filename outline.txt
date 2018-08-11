@@ -1,8 +1,11 @@
 
+Introduction
 Why pay attention to this?
     Type fast move fast
     Push good code everyday
         Basics of good commits
+
+Master the basics
 
 VSCode
     Settings
@@ -32,7 +35,9 @@ VSCode
         VSCode Random
     Emmett
 
-Dev environment at Hack Reactor
+Developing at Hack Reactor
     Toy problems
     Algo-config your setup at HR
+
+Conclusion
     Star/fork this guide if you learned something

@@ -5,8 +5,10 @@
 ## Table of Contents
 
 1.  [Part 1 - Introduction](https://github.com/nvincenthill/streamlineyourworkflow/tree/master/Part%201/PART1.md)
-1.  [Part 2 - Introduction](#requirements)
-1.  [Part 3 - Introduction](#development)
+2.  [Part 2 - Master the basics](#requirements)
+3.  [Part 3 - VSCode](#development)
+4.  [Part 4 - Developing at Hack Reactor](#development)
+5.  [Part 5 - Conclusion](#development)
 
 ## Usage
 
