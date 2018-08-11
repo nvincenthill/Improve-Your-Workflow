@@ -1,0 +1,38 @@
+
+Why pay attention to this?
+    Type fast move fast
+    Push good code everyday
+        Basics of good commits
+
+VSCode
+    Settings
+    Keybindings
+        Bubbling line
+        Duplicate line
+        Cut line
+    Debugger
+    Git Tracker
+    Terminal
+    Extensions
+        AutoClose Tag
+        AutoImport
+        AutoRename Tag
+        Cobalt2
+        Code Spell Checker
+        Color Highlight - css
+        Docker
+        ESLint
+        Git History
+        CSS ClassNames
+        NodeJS Modules
+        ***Prettier***
+        TODO Highlight
+        Trailing Spaces
+        VSCode Icons
+        VSCode Random
+    Emmett
+
+Dev environment at Hack Reactor
+    Toy problems
+    Algo-config your setup at HR
+    Star/fork this guide if you learned something
