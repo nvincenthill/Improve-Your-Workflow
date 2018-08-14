@@ -18,8 +18,7 @@ Text that looks `like this --for --example` are terminal commands.
 
 ## With that out of the way, let's get started!
 
-VSCode
-Settings
+####VSCode Settings
 
 ```javascript
     {
@@ -88,124 +87,187 @@ Settings
 }
 ```
 
-Keybindings
-Bubbling line
-Duplicate line
-iOS
+####Keybindings
 
-iOS
+#####iOS Keybindings
 
-`````javascript
+```javascript
 [
-    {
-        // bubble move a line up
-        "key": "cmd+shift+up",
-        "command": "editor.action.moveLinesUpAction",
-        "when": "editorTextFocus"
-    },
-    {
-        // bubble move a line down
-        "key": "cmd+shift+down",
-        "command": "editor.action.moveLinesDownAction",
-        "when": "editorTextFocus"
-    },
-    {
-        // duplicate a line
-        "key": "cmd+shift+d",
-        "command": "editor.action.copyLinesDownAction",
-        "when": "editorTextFocus && !editorReadonly"
-    }
-]
+  {
+    // bubble move a line up
+    key: "cmd+shift+up",
+    command: "editor.action.moveLinesUpAction",
+    when: "editorTextFocus"
+  },
+  {
+    // bubble move a line down
+    key: "cmd+shift+down",
+    command: "editor.action.moveLinesDownAction",
+    when: "editorTextFocus"
+  },
+  {
+    // duplicate a line
+    key: "cmd+shift+d",
+    command: "editor.action.copyLinesDownAction",
+    when: "editorTextFocus && !editorReadonly"
+  }
+];
 ```
+
 Linux
 
-````javascript
+```javascript
 [
-    {
-        "key": "ctrl+shift+up",
-        "command": "editor.action.moveLinesUpAction",
-        "when": "editorTextFocus"
-    },
-    {
-        "key": "ctrl+shift+down",
-        "command": "editor.action.moveLinesDownAction",
-        "when": "editorTextFocus"
-    },
-    {
-        "key": "ctrl+shift+alt+d",
-        "command": "workbench.view.debug"
-    },
-    {
-        "key": "ctrl+shift+d",
-        "command": "-workbench.view.debug"
-    },
-    {
-        "key": "ctrl+shift+d",
-        "command": "editor.action.copyLinesDownAction",
-        "when": "editorTextFocus && !editorReadonly"
-    },
-    {
-        "key": "ctrl+shift+alt+down",
-        "command": "-editor.action.copyLinesDownAction",
-        "when": "editorTextFocus && !editorReadonly"
-    }
-]
+  {
+    key: "ctrl+shift+up",
+    command: "editor.action.moveLinesUpAction",
+    when: "editorTextFocus"
+  },
+  {
+    key: "ctrl+shift+down",
+    command: "editor.action.moveLinesDownAction",
+    when: "editorTextFocus"
+  },
+  {
+    key: "ctrl+shift+alt+d",
+    command: "workbench.view.debug"
+  },
+  {
+    key: "ctrl+shift+d",
+    command: "-workbench.view.debug"
+  },
+  {
+    key: "ctrl+shift+d",
+    command: "editor.action.copyLinesDownAction",
+    when: "editorTextFocus && !editorReadonly"
+  },
+  {
+    key: "ctrl+shift+alt+down",
+    command: "-editor.action.copyLinesDownAction",
+    when: "editorTextFocus && !editorReadonly"
+  }
+];
 ```
 
 Cut line
-    `ctrl/cmd x`
+`ctrl/cmd x`
 Select multiple items
-    `ctrl/cmd d`
+`ctrl/cmd d`
 
 Debugger
-    https://code.visualstudio.com/docs/editor/debugging
+https://code.visualstudio.com/docs/editor/debugging
 
 Git Tracker
-    https://code.visualstudio.com/docs/editor/versioncontrol
+https://code.visualstudio.com/docs/editor/versioncontrol
 
 Terminal
-    // USE IT
-    // STYLE IT
+// USE IT
+// STYLE IT
 
 Extensions
 
-AutoClose Tag
-````sh
+#####AutoClose Tag
+
+```sh
 code --install-extension formulahendry.auto-close-tag
-````
+```
 
-        AutoImport
-            `code --install-extension steoates.autoimport`
-        AutoRename Tag
-            `code --install-extension formulahendry.auto-rename-tag`
-        Cobalt2
-            `code --install-extension wesbos.theme-cobalt2`
-        Code Spell Checker
-            `code --install-extension streetsidesoftware.code-spell-checker`
-        Color Highlight - css
-            `code --install-extension naumovs.color-highlight`
-        Docker
-            `code --install-extension peterjausovec.vscode-docker`
-        ESLint
-            `code --install-extension dbaeumer.vscode-eslint`
-        Git History
-            `code --install-extension donjayamanne.githistory`
-        CSS ClassNames
-            `code --install-extension zignd.html-css-class-completion`
-        NodeJS Modules
-            `code --install-extension leizongmin.node-module-intellisense`
-        ***Prettier***
-            `code --install-extension esbenp.prettier-vscode`
-        TODO Highlight
-            `code --install-extension wayou.vscode-todo-highlight`
-        Trailing Spaces
-            `code --install-extension shardulm94.trailing-spaces`
-        VSCode Icons
-            `code --install-extension robertohuertasm.vscode-icons`
-        VSCode Random
-            `code --install-extension jrebocho.vscode-random`
+#####AutoImport
 
-    Emmett
-        https://docs.emmet.io/
-        https://docs.emmet.io/cheat-sheet/
-`````
+```sh
+`code --install-extension steoates.autoimport`
+```
+
+#####AutoRename Tag
+
+```sh
+`code --install-extension formulahendry.auto-rename-tag`
+```
+
+#####Cobalt2
+
+```sh
+`code --install-extension wesbos.theme-cobalt2`
+```
+
+#####Code Spell Checker
+
+```sh
+`code --install-extension streetsidesoftware.code-spell-checker`
+```
+
+#####Color Highlight - css
+
+```sh
+`code --install-extension naumovs.color-highlight`
+```
+
+#####Docker
+
+```sh
+`code --install-extension peterjausovec.vscode-docker`
+```
+
+#####ESLint
+
+```sh
+`code --install-extension dbaeumer.vscode-eslint`
+```
+
+#####Git History
+
+```sh
+`code --install-extension donjayamanne.githistory`
+```
+
+#####CSS ClassNames
+
+```sh
+`code --install-extension zignd.html-css-class-completion`
+```
+
+#####NodeJS Modules
+
+```sh
+`code --install-extension leizongmin.node-module-intellisense`
+```
+
+#####**_Prettier_**
+
+```sh
+`code --install-extension esbenp.prettier-vscode`
+```
+
+#####TODO Highlight
+
+```sh
+`code --install-extension wayou.vscode-todo-highlight`
+```
+
+#####Trailing Spaces
+
+```sh
+`code --install-extension shardulm94.trailing-spaces`
+```
+
+#####VSCode Icons
+
+```sh
+`code --install-extension robertohuertasm.vscode-icons`
+```
+
+#####VSCode Random
+
+```sh
+`code --install-extension jrebocho.vscode-random`
+```
+
+####Emmett
+https://docs.emmet.io/
+https://docs.emmet.io/cheat-sheet/
+
+####Things we've learned:
+
+- XXX
+- YYY
+- ZZZ
