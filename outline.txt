@@ -1,9 +1,4 @@
 
-Introduction
-Why pay attention to this?
-    Type fast move fast
-    Push good code everyday
-        Basics of good commits
 
 Master the basics
 
@@ -11,11 +6,59 @@ VSCode
     Settings
     Keybindings
         Bubbling line
-            LINUX / iOS Code
         Duplicate line
-            LINUX / iOS Code
+            iOS
+            `[
+                {
+                    "key": "cmd+shift+up",
+                    "command": "editor.action.moveLinesUpAction",
+                    "when": "editorTextFocus"
+                },
+                {
+                    "key": "cmd+shift+down",
+                    "command": "editor.action.moveLinesDownAction",
+                    "when": "editorTextFocus"
+                },
+                {
+                    //duplicate
+                    "key": "cmd+shift+d",
+                    "command": "editor.action.copyLinesDownAction",
+                    "when": "editorTextFocus && !editorReadonly"
+                }
+                ]`
+            Linux
+                [
+                    {
+                        "key": "ctrl+shift+up",
+                        "command": "editor.action.moveLinesUpAction",
+                        "when": "editorTextFocus"
+                    },
+                    {
+                        "key": "ctrl+shift+down",
+                        "command": "editor.action.moveLinesDownAction",
+                        "when": "editorTextFocus"
+                    },
+                    {
+                        "key": "ctrl+shift+alt+d",
+                        "command": "workbench.view.debug"
+                    },
+                    {
+                        "key": "ctrl+shift+d",
+                        "command": "-workbench.view.debug"
+                    },
+                    {
+                        "key": "ctrl+shift+d",
+                        "command": "editor.action.copyLinesDownAction",
+                        "when": "editorTextFocus && !editorReadonly"
+                    },
+                    {
+                        "key": "ctrl+shift+alt+down",
+                        "command": "-editor.action.copyLinesDownAction",
+                        "when": "editorTextFocus && !editorReadonly"
+                    }
+                ]
         Cut line
-            LINUX / iOS Code
+            ctrl/cmd x
     Debugger
     Git Tracker
     Terminal
@@ -41,6 +84,7 @@ VSCode
 Developing at Hack Reactor
     Toy problems
     Algo-config your setup at HR
+        https://github.com/avincenthill/vscode-environment-automation
 
 Conclusion
     Star/fork this guide if you learned something
