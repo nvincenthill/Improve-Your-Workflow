@@ -15,6 +15,6 @@
 
 > Just do what what the guide says and enjoy the amazing quality of life improvements
 
-## Usage
+## Contributions
 
-> Just do what what the guide says and enjoy the amazing quality of life improvements
+> Want to add something to this guide? Did I mess up something or has something changed? Want your copyrighted material removed or credited? Submit a pull request or open an issue and I'll fix it!
