@@ -8,7 +8,7 @@
 
 1.  [Introduction - Master the Basics](https://github.com/nvincenthill/streamlineyourworkflow/tree/master/Part%201/PART1.md)
 2.  [Become a VSCode Power User](https://github.com/nvincenthill/streamlineyourworkflow/tree/master/Part%202/PART2.md)
-3.  [Code Faster/Better/Stronger at Hack Reactor](https://github.com/nvincenthill/streamlineyourworkflow/tree/master/Part%203/PART3.md))
+3.  [Code Faster/Better/Stronger at Hack Reactor](https://github.com/nvincenthill/streamlineyourworkflow/tree/master/Part%203/PART3.md)
 4.  [Conclusion - Implement Change with Deliberate Practice](https://github.com/nvincenthill/streamlineyourworkflow/tree/master/Part%204/PART4.md)
 
 ## Usage
