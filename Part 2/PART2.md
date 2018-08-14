@@ -310,8 +310,10 @@ code --install-extension jrebocho.vscode-random
 https://docs.emmet.io/
 https://docs.emmet.io/cheat-sheet/
 
-### Things we've learned:
+#### What we learned
 
-- XXX
-- YYY
-- ZZZ
+- Make good commit messages
+- Write code that future you will enjoy reading
+- Make good commit messages
+
+[Go to Part 3 - Code Faster/Better/Stronger at Hack Reactor](https://github.com/nvincenthill/streamlineyourworkflow/tree/master/Part%203/PART3.md)

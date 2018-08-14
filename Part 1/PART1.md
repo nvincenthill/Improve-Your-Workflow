@@ -41,3 +41,5 @@ https://chris.beams.io/posts/git-commit/
 - Make good commit messages
 - Write code that future you will enjoy reading
 - Make good commit messages
+
+[Go to Part 2 - Become a VSCode Power User](https://github.com/nvincenthill/streamlineyourworkflow/tree/master/Part%202/PART2.md)
