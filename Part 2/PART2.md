@@ -1,24 +1,16 @@
 # Part 2 - Become a VSCode Power User
 
-#### A note about the syntactic formatting in this guide:
+---
 
-- [ ] Check boxes are steps that need to be completed.
-
-Text that looks `like this --for --example` are terminal commands.
+> _Weeks of coding can save you hours of planning. - Unknown_
 
 ---
 
-> Asides: Side notes to ponder while staring off into the distance.
+## VSCode Command Palette
 
----
+## VSCode Settings
 
-**Bold text: Key takeaways**
-
-**Click on an image if you need a larger view**
-
-## With that out of the way, let's get started!
-
-####VSCode Settings
+To open settings with the command line
 
 ```javascript
     {
@@ -87,9 +79,9 @@ Text that looks `like this --for --example` are terminal commands.
 }
 ```
 
-####Keybindings
+## VSCode Keybindings
 
-#####iOS Keybindings
+## iOS Keybindings
 
 ```javascript
 [
@@ -114,7 +106,7 @@ Text that looks `like this --for --example` are terminal commands.
 ];
 ```
 
-Linux
+### Linux Keybindings
 
 ```javascript
 [
@@ -149,124 +141,134 @@ Linux
 ];
 ```
 
+---
+
+> _Linux is only free if your time has no value. - Jamie Zawinski_
+
+---
+
 Cut line
 `ctrl/cmd x`
 Select multiple items
 `ctrl/cmd d`
 
-Debugger
+## VSCode Debugger
+
 https://code.visualstudio.com/docs/editor/debugging
 
-Git Tracker
+## VSCode Source Control
+
 https://code.visualstudio.com/docs/editor/versioncontrol
 
-Terminal
+## VSCode Terminal
+
 // USE IT
 // STYLE IT
 
-Extensions
+## VSCode Extensions
 
-#####AutoClose Tag
+### AutoClose Tag
 
 ```sh
 code --install-extension formulahendry.auto-close-tag
 ```
 
-#####AutoImport
+### AutoImport
 
 ```sh
-`code --install-extension steoates.autoimport`
+code --install-extension steoates.autoimport
 ```
 
-#####AutoRename Tag
+### AutoRename Tag
 
 ```sh
-`code --install-extension formulahendry.auto-rename-tag`
+code --install-extension formulahendry.auto-rename-tag
 ```
 
-#####Cobalt2
+### Cobalt2
 
 ```sh
-`code --install-extension wesbos.theme-cobalt2`
+code --install-extension wesbos.theme-cobalt2
 ```
 
-#####Code Spell Checker
+### Code Spell Checker
 
 ```sh
-`code --install-extension streetsidesoftware.code-spell-checker`
+code --install-extension streetsidesoftware.code-spell-checker
 ```
 
-#####Color Highlight - css
+### Color Highlight - css
 
 ```sh
-`code --install-extension naumovs.color-highlight`
+code --install-extension naumovs.color-highlight
 ```
 
-#####Docker
+### Docker
 
 ```sh
-`code --install-extension peterjausovec.vscode-docker`
+code --install-extension peterjausovec.vscode-docker
 ```
 
-#####ESLint
+### ESLint
 
 ```sh
-`code --install-extension dbaeumer.vscode-eslint`
+code --install-extension dbaeumer.vscode-eslint
 ```
 
-#####Git History
+### Git History
 
 ```sh
-`code --install-extension donjayamanne.githistory`
+code --install-extension donjayamanne.githistory
 ```
 
-#####CSS ClassNames
+### CSS ClassNames
 
 ```sh
-`code --install-extension zignd.html-css-class-completion`
+code --install-extension zignd.html-css-class-completion
 ```
 
-#####NodeJS Modules
+### NodeJS Modules
 
 ```sh
-`code --install-extension leizongmin.node-module-intellisense`
+code --install-extension leizongmin.node-module-intellisense
 ```
 
-#####**_Prettier_**
+### Prettier - Possible the best extension ever made
 
 ```sh
-`code --install-extension esbenp.prettier-vscode`
+code --install-extension esbenp.prettier-vscode
 ```
 
-#####TODO Highlight
+### TODO Highlight
 
 ```sh
-`code --install-extension wayou.vscode-todo-highlight`
+code --install-extension wayou.vscode-todo-highlight
 ```
 
-#####Trailing Spaces
+### Trailing Spaces
 
 ```sh
-`code --install-extension shardulm94.trailing-spaces`
+code --install-extension shardulm94.trailing-spaces
 ```
 
-#####VSCode Icons
+### VSCode Icons
 
 ```sh
-`code --install-extension robertohuertasm.vscode-icons`
+code --install-extension robertohuertasm.vscode-icons
 ```
 
-#####VSCode Random
+### VSCode Random
 
 ```sh
-`code --install-extension jrebocho.vscode-random`
+code --install-extension jrebocho.vscode-random
 ```
 
-####Emmett
+## Emmett - Built into VSCode
+
 https://docs.emmet.io/
 https://docs.emmet.io/cheat-sheet/
 
-####Things we've learned:
+### Things we've learned:
 
 - XXX
 - YYY

@@ -1,20 +1,10 @@
 # Part 1 - Introduction - Master the Basics
 
-#### A note about the syntactic formatting in this guide:
-
-- [ ] Check boxes are steps that need to be completed.
-
-Text that looks `like this --for --example` are terminal commands.
-
-**Bold text: For key takeaways**
-
 ---
 
-> Asides: Side notes to ponder while staring off into the distance.
+> _Always code as if the guy who ends up maintaining your code will be a violent psychopath who knows where you live. - Martin Golding_
 
 ---
-
-## With that out of the way, let's get started!
 
 ## Why are you reading this?
 
