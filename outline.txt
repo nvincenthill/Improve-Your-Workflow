@@ -11,8 +11,11 @@ VSCode
     Settings
     Keybindings
         Bubbling line
+            LINUX / iOS Code
         Duplicate line
+            LINUX / iOS Code
         Cut line
+            LINUX / iOS Code
     Debugger
     Git Tracker
     Terminal

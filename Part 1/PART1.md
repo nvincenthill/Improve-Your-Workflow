@@ -1,10 +1,10 @@
-# Module 1 - Installation and Introduction
+# Part 1 - Introduction
 
-#### A note about the symantec formatting in this tutorial:
+#### A note about the syntactic formatting in this guide:
 
 - [ ] Check boxes are steps that need to be completed.
 
-Text that looks `like this --for --example` are commands that you should type into your terminal. Or else.
+Text that looks `like this --for --example` are terminal commands.
 
 ---
 
@@ -12,15 +12,23 @@ Text that looks `like this --for --example` are commands that you should type in
 
 ---
 
-**Bold text: Gotchas that are gonna getcha if you don't heed this advice**
+**Bold text: Key takeaways**
 
 **Click on an image if you need a larger view**
 
 ## With that out of the way, let's get started!
 
-![dokerlogo](https://github.com/nvincenthill/Improve-Your-Workflow/blob/master/Part%201/pushCodeEveryDay.png?raw=true)
+<!-- ![dokerlogo](https://github.com/nvincenthill/Improve-Your-Workflow/blob/master/Part%201/pushCodeEveryDay.png?raw=true) -->
 
-First things first, let's install Docker:
+Introduction
+Why pay attention to this?
+Type fast move fast
+Push good code everyday
+Basics of good commits
+
+First things first- why pay attention to this?
+
+Do you want to improve your developement speed?
 
 - [ ] Go to [Docker's website](https://www.docker.com/products/docker) and download the version that's appropriate for your operating system
 
