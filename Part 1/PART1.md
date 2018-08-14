@@ -1,4 +1,4 @@
-# Part 1 - Introduction
+# Part 1 - Introduction - Master the Basics
 
 #### A note about the syntactic formatting in this guide:
 
@@ -17,8 +17,6 @@ Text that looks `like this --for --example` are terminal commands.
 **Click on an image if you need a larger view**
 
 ## With that out of the way, let's get started!
-
-<!-- ![dokerlogo](https://github.com/nvincenthill/Improve-Your-Workflow/blob/master/Part%201/pushCodeEveryDay.png?raw=true) -->
 
 Introduction
 Why pay attention to this?
