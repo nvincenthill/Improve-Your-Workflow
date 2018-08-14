@@ -6,23 +6,31 @@
 
 Text that looks `like this --for --example` are terminal commands.
 
+**Bold text: For key takeaways**
+
 ---
 
 > Asides: Side notes to ponder while staring off into the distance.
 
 ---
 
-**Bold text: Key takeaways**
-
-**Click on an image if you need a larger view**
-
 ## With that out of the way, let's get started!
 
-Introduction
-Why pay attention to this?
+## Why are you reading this?
+
+- [ ] Do you want to improve your development speed (rate of code generation)?
+
+- [ ] XXXX?
+
+- [ ] XXXX?
+
+You should see something like:
+
 Type fast move fast
+https://www.keybr.com/
 Push good code everyday
 Basics of good commits
+https://chris.beams.io/posts/git-commit/
 
 First things first- why pay attention to this?
 
