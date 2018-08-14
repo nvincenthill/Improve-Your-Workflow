@@ -1,5 +1,12 @@
 # Part 2 - Become a VSCode Power User
 
+## Table of Contents
+
+1.  [Introduction](#why-are-you-reading-this)
+2.  [Part 2](#why-are-you-reading-this)
+3.  [Part 3](#why-are-you-reading-this)
+4.  [Part 4](#why-are-you-reading-this)
+
 ---
 
 > _Weeks of coding can save you hours of planning. - Unknown_
@@ -83,7 +90,7 @@ To open settings with the command line
 
 ## iOS Keybindings
 
-```javascript
+```json
 [
   {
     // bubble move a line up
@@ -108,7 +115,7 @@ To open settings with the command line
 
 ### Linux Keybindings
 
-```javascript
+```json
 [
   {
     key: "ctrl+shift+up",

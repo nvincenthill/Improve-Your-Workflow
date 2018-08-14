@@ -1,6 +1,6 @@
 # Improve your development workflow
 
-![dilbertcomic1](http://comics.roderickmann.org/episodes/Dilbert/2015/05/Dilbert20150506.gif)
+![Improve your productivity](http://comics.roderickmann.org/episodes/Dilbert/2015/05/Dilbert20150506.gif)
 
 > This is a non-exhaustive guide to improving the ease, speed, and productivity of your development.
 
@@ -15,6 +15,12 @@
 
 > Just follow the guide and enjoy the amazing quality of life improvements
 
-## Contributions
+## Contribute
 
 > Want to add something to this guide? Did I mess up something or has something changed? Want your copyrighted material removed or credited? Submit a pull request or open an issue and I'll fix it!
+
+---
+
+> **Star this guide if you learned something and fork me on github**
+
+---
