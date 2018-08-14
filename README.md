@@ -13,7 +13,7 @@
 
 ## Usage
 
-> Just do what what the guide says and enjoy the amazing quality of life improvements
+> Just follow the guide and enjoy the amazing quality of life improvements
 
 ## Contributions
 
