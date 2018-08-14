@@ -21,7 +21,8 @@ Text that looks `like this --for --example` are terminal commands.
 VSCode
 Settings
 
-````sh{
+```javascript
+    {
     // An array of languages where Emmet abbreviations should not be expanded.
     "emmet.excludeLanguages": [
     "markdown"
@@ -84,75 +85,95 @@ Settings
     "cSpell.userWords": [
     "hackreactr",
     ]
-}```
+}
+```
 
 Keybindings
 Bubbling line
 Duplicate line
-            iOS
-            ```[
-                {
-                    "key": "cmd+shift+up",
-                    "command": "editor.action.moveLinesUpAction",
-                    "when": "editorTextFocus"
-                },
-                {
-                    "key": "cmd+shift+down",
-                    "command": "editor.action.moveLinesDownAction",
-                    "when": "editorTextFocus"
-                },
-                {
-                    //duplicate
-                    "key": "cmd+shift+d",
-                    "command": "editor.action.copyLinesDownAction",
-                    "when": "editorTextFocus && !editorReadonly"
-                }
-                ]```
-            Linux
-                ```[
-                    {
-                        "key": "ctrl+shift+up",
-                        "command": "editor.action.moveLinesUpAction",
-                        "when": "editorTextFocus"
-                    },
-                    {
-                        "key": "ctrl+shift+down",
-                        "command": "editor.action.moveLinesDownAction",
-                        "when": "editorTextFocus"
-                    },
-                    {
-                        "key": "ctrl+shift+alt+d",
-                        "command": "workbench.view.debug"
-                    },
-                    {
-                        "key": "ctrl+shift+d",
-                        "command": "-workbench.view.debug"
-                    },
-                    {
-                        "key": "ctrl+shift+d",
-                        "command": "editor.action.copyLinesDownAction",
-                        "when": "editorTextFocus && !editorReadonly"
-                    },
-                    {
-                        "key": "ctrl+shift+alt+down",
-                        "command": "-editor.action.copyLinesDownAction",
-                        "when": "editorTextFocus && !editorReadonly"
-                    }
-                ]```
-        Cut line
-            `ctrl/cmd x`
-        Select multiple items
-            ctrl/cmd d
-    Debugger
-        https://code.visualstudio.com/docs/editor/debugging
-    Git Tracker
-        https://code.visualstudio.com/docs/editor/versioncontrol
-    Terminal
-        // USE IT
-        // STYLE IT
-    Extensions
-        AutoClose Tag
-            `code --install-extension formulahendry.auto-close-tag`
+iOS
+
+iOS
+
+`````javascript
+[
+    {
+        // bubble move a line up
+        "key": "cmd+shift+up",
+        "command": "editor.action.moveLinesUpAction",
+        "when": "editorTextFocus"
+    },
+    {
+        // bubble move a line down
+        "key": "cmd+shift+down",
+        "command": "editor.action.moveLinesDownAction",
+        "when": "editorTextFocus"
+    },
+    {
+        // duplicate a line
+        "key": "cmd+shift+d",
+        "command": "editor.action.copyLinesDownAction",
+        "when": "editorTextFocus && !editorReadonly"
+    }
+]
+```
+Linux
+
+````javascript
+[
+    {
+        "key": "ctrl+shift+up",
+        "command": "editor.action.moveLinesUpAction",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+shift+down",
+        "command": "editor.action.moveLinesDownAction",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+shift+alt+d",
+        "command": "workbench.view.debug"
+    },
+    {
+        "key": "ctrl+shift+d",
+        "command": "-workbench.view.debug"
+    },
+    {
+        "key": "ctrl+shift+d",
+        "command": "editor.action.copyLinesDownAction",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+shift+alt+down",
+        "command": "-editor.action.copyLinesDownAction",
+        "when": "editorTextFocus && !editorReadonly"
+    }
+]
+```
+
+Cut line
+    `ctrl/cmd x`
+Select multiple items
+    `ctrl/cmd d`
+
+Debugger
+    https://code.visualstudio.com/docs/editor/debugging
+
+Git Tracker
+    https://code.visualstudio.com/docs/editor/versioncontrol
+
+Terminal
+    // USE IT
+    // STYLE IT
+
+Extensions
+
+AutoClose Tag
+````sh
+code --install-extension formulahendry.auto-close-tag
+````
+
         AutoImport
             `code --install-extension steoates.autoimport`
         AutoRename Tag
@@ -187,4 +208,4 @@ Duplicate line
     Emmett
         https://docs.emmet.io/
         https://docs.emmet.io/cheat-sheet/
-````
+`````
