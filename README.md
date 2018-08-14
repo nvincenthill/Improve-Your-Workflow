@@ -21,6 +21,6 @@
 
 ---
 
-> **Star this guide if you learned something and fork me on github**
+> **Star this guide if you learned something and fork me on github!**
 
 ---

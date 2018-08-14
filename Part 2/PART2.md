@@ -15,6 +15,8 @@
 
 ## VSCode Command Palette
 
+https://code.visualstudio.com/docs/getstarted/userinterface
+
 ## VSCode Settings
 
 To open settings with the command line
@@ -49,11 +51,20 @@ To open settings with the command line
     "emmet.variables": {},
     //Prettier settings
     // Set the default
+    }
+```
+
+```javascript
+    {
     "editor.formatOnSave": true,
     // Enable per-language
     "[javascript]": {
     "editor.formatOnSave": true
-    },
+    }
+```
+
+```javascript
+    {
     //Theme settings
     "workbench.colorTheme": "Cobalt2",
     "editor.fontFamily": "Inconsolata, Operator Mono, Menlo, Monaco, 'Courier New', monospace",
@@ -68,29 +79,48 @@ To open settings with the command line
     "editor.cursorBlinking": "solid",
     "editor.wordWrap": "on",
     "editor.renderWhitespace": "all",
-    "terminal.integrated.fontSize": 24,
-    "terminal.integrated.lineHeight": 1,
-    "terminal.integrated.fontFamily": "Ubuntu mono",
     "window.zoomLevel": 2,
-    "todohighlight.isEnable": true,
-    "todohighlight.keywords": [
-    "TBD",
-    "TODO"
-    ],
     "workbench.startupEditor": "newUntitledFile",
     "explorer.confirmDragAndDrop": false,
     "explorer.confirmDelete": false,
+}
+```
+
+```javascript
+{
+    "terminal.integrated.fontSize": 24,
+    "terminal.integrated.lineHeight": 1,
+    "terminal.integrated.fontFamily": "Ubuntu mono"
+}
+```
+
+### TODO Highlighter Specific Settings
+
+```javascript
+{
+    "todohighlight.isEnable": true,
+    "todohighlight.keywords": [
+      "TBD",
+      "TODO"
+    ]
+}
+```
+
+### cSpell Checker Specific Settings
+
+```javascript
+{
     "cSpell.userWords": [
-    "hackreactr",
+      "exampleWordToAddToGlobalDictionary",
     ]
 }
 ```
 
 ## VSCode Keybindings
 
-## iOS Keybindings
+### iOS Keybindings
 
-```json
+```javascript
 [
   {
     // bubble move a line up
@@ -115,7 +145,7 @@ To open settings with the command line
 
 ### Linux Keybindings
 
-```json
+```javascript
 [
   {
     key: "ctrl+shift+up",
@@ -154,9 +184,14 @@ To open settings with the command line
 
 ---
 
-Cut line
+## VSCode Shortcuts to memorize
+
+### Cut line
+
 `ctrl/cmd x`
-Select multiple items
+
+### Select multiple items
+
 `ctrl/cmd d`
 
 ## VSCode Debugger
@@ -270,7 +305,7 @@ code --install-extension robertohuertasm.vscode-icons
 code --install-extension jrebocho.vscode-random
 ```
 
-## Emmett - Built into VSCode
+## Emmet - Built into VSCode
 
 https://docs.emmet.io/
 https://docs.emmet.io/cheat-sheet/
