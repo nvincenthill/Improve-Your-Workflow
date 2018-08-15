@@ -178,11 +178,11 @@ To view/edit shortcuts with the command line:
 
 - [ ] Type `Preferences: Open Keyboard Shortcuts`
 
-### Memorize these shortcuts to improve your workflow
+#### Memorize these shortcuts to improve your workflow
 
-Cut line | <kbd>cmd/ctrl</kbd> + <kbd>x</kbd>
+Cut line <kbd>cmd/ctrl</kbd> + <kbd>x</kbd>
 
-Select multiple items | <kbd>cmd/ctrl</kbd> + <kbd>d</kbd>
+Select multiple items <kbd>cmd/ctrl</kbd> + <kbd>d</kbd>
 
 [Complete list for iOS](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf)
 
@@ -406,11 +406,11 @@ code --install-extension leizongmin.node-module-intellisense
 
 _VS Code package to format your JavaScript / TypeScript / CSS using Prettier_
 
-[Learn how to integrate Prettier with ESLint/airbnb's style guide](https://blog.echobind.com/integrating-prettier-eslint-airbnb-style-guide-in-vscode-47f07b5d7d6a)
-
 ```sh
 code --install-extension esbenp.prettier-vscode
 ```
+
+[★ Learn how to integrate Prettier with ESLint/airbnb's style guide ★](https://blog.echobind.com/integrating-prettier-eslint-airbnb-style-guide-in-vscode-47f07b5d7d6a)
 
 #### TODO Highlight
 

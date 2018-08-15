@@ -27,9 +27,17 @@ Stay focused
 
 ## Toy problems with VSCode
 
-Use debugger, terminal, and git all from the same window!
+If you're not using VSCode's integrated debugger, terminal, and version control when you're solving toy problems you're probably not optimizing your limited time. Stop switching tabs, using Chrome snippets, and letting your tools slow you down.
 
 ## Auto-configure your development environment
+
+You might be thinking - "VSCode seems cool and all, but I don't want to configure everything on a pairing station and then have DeepFreeze wipe all my settings/configs overnight. I'll just stick with Sublime \<sigh>"
+
+## ★WRONG★
+
+Automate your development environment setup and configuration with one command.
+
+Check out this script my brother [Alex](https://github.com/avincenthill) wrote for this exact problem!
 
 https://github.com/avincenthill/vscode-environment-automation
 
@@ -39,4 +47,4 @@ https://github.com/avincenthill/vscode-environment-automation
 - Utilize IDE features to full effect in Hack Reactor
 - Automate setup and configuration on new machines with scripts
 
-[Go to Part 4 - Conclusion - Implement Change](https://github.com/nvincenthill/streamlineyourworkflow/tree/master/Part%204/PART4.md)
+[Go to Part 4 - Conclusion](https://github.com/nvincenthill/streamlineyourworkflow/tree/master/Part%204/PART4.md)
