@@ -35,15 +35,15 @@ I'm not an expert programmer and this is not an exhaustive list of VSCode featur
 
 This is where all the magic happens. Stop searching, opening, and configuring manually- use the command palette
 
-- [ ] Type `cmd/ctrl + shift + p` to open the command palette.
+- [ ] Type <kbd>cmd/ctrl</kbd> + <kbd>shift</kbd> + <kbd>p</kbd> to open the command palette.
 
 - [ ] The default `>` indicates you are in the VSCode command shell - this is where native and extension commands live.
 
-- [ ] Type `cmd/ctrl + shift + o` to open the symbolic search palette.
+- [ ] Type <kbd>cmd/ctrl</kbd> + <kbd>shift</kbd> + <kbd>o</kbd> to open the symbolic search palette.
 
 - [ ] The default `@` indicates you are doing a symbolic search - this is a smart search that searches by 'symbols' present in the currently open file. In Javascript, symbols are function declarations, in CSS they are selectors, and in markdown they are headers- etc.
 
-- [ ] Type `cmd/ctrl + p` to open the fuzzy file search.
+- [ ] Type <kbd>cmd/ctrl</kbd> + <kbd>p</kbd> to open the fuzzy file search.
 
 - [ ] No leading character indicates you are conducting a fuzzy file search. Use this feature to quickly switch to files.
 
@@ -55,7 +55,7 @@ This is where all the magic happens. Stop searching, opening, and configuring ma
 
 To open settings with the command line:
 
-- [ ] Type `cmd/ctrl + shift + p` to open the command palette
+- [ ] Type <kbd>cmd/ctrl</kbd> + <kbd>shift</kbd> + <kbd>p</kbd> to open the command palette
 
 - [ ] Type `Preferences: Open Settings`
 
@@ -174,7 +174,7 @@ To open settings with the command line:
 
 To view/edit shortcuts with the command line:
 
-- [ ] Type `cmd/ctrl + shift + p` to open the command palette
+- [ ] Type <kbd>cmd/ctrl</kbd> + <kbd>shift</kbd> + <kbd>p</kbd> to open the command palette
 
 - [ ] Type `Preferences: Open Keyboard Shortcuts`
 
@@ -182,11 +182,11 @@ To view/edit shortcuts with the command line:
 
 Cut line
 
-`ctrl/cmd x`
+<kbd>cmd/ctrl</kbd> + <kbd>x</kbd>
 
 Select multiple items
 
-`ctrl/cmd d`
+<kbd>cmd/ctrl</kbd> + <kbd>d</kbd>
 
 ---
 
@@ -194,7 +194,7 @@ Select multiple items
 
 To view/edit keybindings with the command line:
 
-- [ ] Type `cmd/ctrl + shift + p` to open the command palette
+- [ ] Type <kbd>cmd/ctrl</kbd> + <kbd>shift</kbd> + <kbd>p</kbd> to open the command palette
 
 - [ ] Type `Preferences: Open Keyboard Shortcuts`
 
@@ -274,6 +274,10 @@ To view/edit keybindings with the command line:
 
 ## VSCode Integrated Terminal
 
+To use the VSCode integrated terminal:
+
+1. Go to VSCode extensions with <kbd>cmd/ctrl</kbd> + <kbd>`</kbd>
+
 [VSCode Integrated Terminal Docs](https://code.visualstudio.com/docs/editor/integrated-terminal)
 
 ---
@@ -297,7 +301,7 @@ To view/edit keybindings with the command line:
 
 To view/install extensions:
 
-1. Go to VSCode extensions with `ctrl/cmd + shift + X`
+1. Go to VSCode extensions with <kbd>cmd/ctrl</kbd> + <kbd>shift</kbd> + <kbd>x</kbd>
 
 #### AutoClose Tag
 
