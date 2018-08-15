@@ -13,12 +13,13 @@
 
 ## Usage
 
-> Just follow the guide and enjoy the amazing quality of life improvements
+Just follow the guide and enjoy the amazing quality of life improvements
 
 ## Contribute
 
-> Want to add something to this guide? Did I mess up something or has something changed? Want your copyrighted material removed or credited? Submit a pull request or open an issue and I'll fix it!
+Want to add something to this guide? Did I mess up something or has something changed? Want your copyrighted material removed or credited? Submit a pull request or open an issue and I'll fix it!
 
 ---
 
 **★ Star this guide if you learned something and fork me on github! ★**
+gi
