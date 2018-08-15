@@ -202,7 +202,7 @@ To view/edit keybindings with the command line:
 
 ### Please find some essential keybinding additions below:
 
-### iOS Keybindings
+#### iOS
 
 ```javascript
 [
@@ -227,7 +227,7 @@ To view/edit keybindings with the command line:
 ];
 ```
 
-### Linux Keybindings
+#### Linux
 
 ---
 
@@ -264,11 +264,19 @@ To view/edit keybindings with the command line:
 
 ## VSCode Debugger
 
+To use the VSCode integrated debugger:
+
+1. Go to the VSCode debugger with <kbd>cmd/ctrl</kbd> + <kbd>shift</kbd> + <kbd>alt</kbd> + <kbd>d</kbd>
+
 [VSCode Debugger Docs](https://code.visualstudio.com/docs/editor/debugging)
 
 ---
 
 ## VSCode Version Control
+
+To use the VSCode integrated version control:
+
+1. Go to VSCode integrated version with <kbd>cmd/ctrl</kbd> + <kbd>shift</kbd> + <kbd>g</kbd>
 
 [VSCode Version Control Docs](https://code.visualstudio.com/docs/editor/versioncontrol)
 
@@ -287,6 +295,7 @@ To use the VSCode integrated terminal:
 ## Emmet
 
 [Emmet Docs](https://docs.emmet.io/)
+
 [Emmet Cheatsheet](https://docs.emmet.io/cheat-sheet/)
 
 ---
