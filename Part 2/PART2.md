@@ -180,13 +180,13 @@ To view/edit shortcuts with the command line:
 
 ### Memorize these shortcuts to improve your workflow
 
-Cut line
+Cut line | <kbd>cmd/ctrl</kbd> + <kbd>x</kbd>
 
-<kbd>cmd/ctrl</kbd> + <kbd>x</kbd>
+Select multiple items | <kbd>cmd/ctrl</kbd> + <kbd>d</kbd>
 
-Select multiple items
+[Complete list for iOS](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf)
 
-<kbd>cmd/ctrl</kbd> + <kbd>d</kbd>
+[Complete list for Windows](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf)
 
 ---
 
@@ -200,7 +200,7 @@ To view/edit keybindings with the command line:
 
 - [ ] Select `keybindings.json`
 
-### Please find some essential keybinding additions below
+### Please find some essential keybinding additions below:
 
 ### iOS Keybindings
 
@@ -257,6 +257,8 @@ To view/edit keybindings with the command line:
   }
 ];
 ```
+
+[VSCode Keybinding docs](https://code.visualstudio.com/docs/getstarted/keybindings)
 
 ---
 
