@@ -2,10 +2,10 @@
 
 ## Table of Contents
 
-1.  [Developing at Hack Reactor](#why-are-you-reading-this)
-1.  [How to code fast at Hack Reactor](#why-are-you-reading-this)
-1.  [Toy problems with VSCode](#why-are-you-reading-this)
-1.  [Auto-configure your development environment](#why-are-you-reading-this)
+1.  [Developing at Hack Reactor](#developing-at-hack-reactor)
+1.  [Toy problems with VSCode](#toy-problems-with-vscode)
+1.  [Auto-configure your development environment](#auto-configure-your-development-environment)
+1.  [Summary](#what-we-learned)
 
 ---
 
@@ -16,10 +16,12 @@
 ## Developing at Hack Reactor
 
 Get unstuck quickly
+
 Timebox problems
+
 Stay focused
 
-## Toy problems
+## Toy problems with VSCode
 
 Use debugger, terminal, and git all from the same window!
 

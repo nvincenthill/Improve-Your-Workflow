@@ -2,6 +2,7 @@
 
 ## Table of Contents
 
+1.  [Why VSCode?](#why-vscode)
 1.  [Command Palette](#vscode-command-palette)
 1.  [Settings](#vscode-settings)
 1.  [Keybindings](#vscode-keybindings)
@@ -9,15 +10,20 @@
 1.  [Debugger](#vscode-debugger)
 1.  [Version Control](#vscode-version-control)
 1.  [Integrated Terminal](#vscode-integrated-terminal)
-1.  [Emmet](#vscode-emmet)
+1.  [Emmet](#emmet)
 1.  [Snippets](#vscode-snippets)
 1.  [Extensions](#vscode-extensions)
+1.  [Summary](#what-we-learned)
 
 ---
 
 > _Weeks of coding can save you hours of planning. - Unknown_
 
 ---
+
+## Why VSCode?
+
+I've used a variety of other text editors (Brackets, Atom, Sublime, and Vim). I prefer VSCode for its robust IDE functionality customizable settings, and user-friendly interface. Please find a list of important features,settings, and tools included below. I consider knowledge of these functions essential to improving the speed and ease your developement workflow with VSCode.
 
 ## VSCode Command Palette
 
@@ -104,7 +110,7 @@ To open settings with the command line
   // Terminal settings
   "terminal.integrated.fontSize": 24,
   "terminal.integrated.lineHeight": 1,
-  "terminal.integrated.fontFamily": "Ubuntu mono"
+  "terminal.integrated.fontFamily": "Inconsolata"
 }
 ```
 

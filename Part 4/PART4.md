@@ -2,10 +2,10 @@
 
 ## Table of Contents
 
-1.  [Become the 10x developer](#why-are-you-reading-this)
-1.  [Coding challenges/interviews](#why-are-you-reading-this)
-1.  [A word about VIM](#why-are-you-reading-this)
-1.  [Auto-configure your development environment](#why-are-you-reading-this)
+1.  [Become the 10x developer](#become-the-10x-developer)
+1.  [Coding challenges](#coding-challenges)
+1.  [Deliberate Practice](#deliberate-practice)
+1.  [A few words about VIM](#a-few-words-about-vim)
 
 ---
 
@@ -15,11 +15,15 @@
 
 ## Become the 10x developer
 
-## Coding challenges/interviews
+## Coding challenges
 
 1. they will see how you code
 1. don't use this incredible IDE as a crutch
 
+## Deliberate Practice
+
 ## A few words about VIM
+
+Fuck VIM.
 
 [**★ Star this guide if you learned something and fork me on github! ★**](https://github.com/nvincenthill/streamlineyourworkflow/)
