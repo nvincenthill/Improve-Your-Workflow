@@ -31,8 +31,8 @@ https://github.com/avincenthill/vscode-environment-automation
 
 #### What we learned
 
-- Make good commit messages
-- Write code that future you will enjoy reading
+- Utilize IDE features to full effect in Hack Reactor
+- Automate setup and configuration on new machines with scripts
 - Make good commit messages
 
 [Go to Part 4 - Conclusion - Implement Change with Deliberate Practice](https://github.com/nvincenthill/streamlineyourworkflow/tree/master/Part%204/PART4.md)

@@ -5,8 +5,8 @@
 1.  [Why VSCode?](#why-vscode)
 1.  [Command Palette](#vscode-command-palette)
 1.  [Settings](#vscode-settings)
+1.  [Shortcuts](#vscode-shortcuts)
 1.  [Keybindings](#vscode-keybindings)
-1.  [Shortcuts to Memorize](#vscode-shortcuts-to-memorize)
 1.  [Debugger](#vscode-debugger)
 1.  [Version Control](#vscode-version-control)
 1.  [Integrated Terminal](#vscode-integrated-terminal)
@@ -23,17 +23,43 @@
 
 ## Why VSCode?
 
-I've used a variety of other text editors (Brackets, Atom, Sublime, and Vim). I prefer VSCode for its robust IDE functionality customizable settings, and user-friendly interface. Please find a list of important features,settings, and tools included below. I consider knowledge of these functions essential to improving the speed and ease your developement workflow with VSCode.
+I've used a variety of other text editors (Brackets, Atom, Sublime, and Vim). I prefer VSCode for its robust IDE functionality customizable settings, and user-friendly interface.
+
+Please find a list of important features, settings, and tools included below. I consider knowledge of these functions essential to improving the speed and ease your development workflow with VSCode.
+
+I'm not an expert programmer and this is not an exhaustive list of VSCode features. I probably only use 5-10% of this IDE's potential during my typical development workflow. If I fail to mention your favorite feature make a pull request and I'll likely include it.
 
 ## VSCode Command Palette
 
-[VSCode Command Palette](https://code.visualstudio.com/docs/getstarted/userinterface)
+This is where all the magic happens. Stop searching, opening, and configuring manually- use the command palette
+
+- [ ] Type `cmd/ctrl + shift + p` to open the command palette.
+
+- [ ] The default `>` indicates you are in the VSCode command shell - this is where native and extension commands live.
+
+- [ ] Type `cmd/ctrl + shift + o` to open the symbolic search palette.
+
+- [ ] The default `@` indicates you are doing a symbolic search - this is a smart search that searches by 'symbols' present in the currently open file. In Javascript, symbols are function declarations, in CSS they are selectors, and in markdown they are headers- etc.
+
+- [ ] Type `cmd/ctrl + p` to open the fuzzy file search.
+
+- [ ] No leading character indicates you are conducting a fuzzy file search. Use this feature to quickly switch to files.
+
+[VSCode Command Palette Docs](https://code.visualstudio.com/docs/getstarted/userinterface)
 
 ## VSCode Settings
 
-To open settings with the command line
+To open settings with the command line:
 
-### Emmet Specific Settings
+- [ ] Type `cmd/ctrl + shift + p` to open the command palette
+
+- [ ] Type `Preferences: Open Settings`
+
+- [ ] To edit settings type/paste custom settings in JSON format in the user settings window on the right
+
+### Please find the custom settings I use below:
+
+#### Emmet Specific Settings
 
 ```javascript
 {
@@ -66,7 +92,7 @@ To open settings with the command line
 }
 ```
 
-### Prettier Specific Settings
+#### Prettier Specific Settings
 
 ```javascript
 {
@@ -78,7 +104,7 @@ To open settings with the command line
 }
 ```
 
-### Theme Specific Settings
+#### Theme Specific Settings
 
 ```javascript
 {
@@ -103,7 +129,7 @@ To open settings with the command line
 }
 ```
 
-### Terminal Specific Settings
+#### Terminal Specific Settings
 
 ```javascript
 {
@@ -114,7 +140,7 @@ To open settings with the command line
 }
 ```
 
-### Todo Highlighter Specific Settings
+#### Todo Highlighter Specific Settings
 
 ```javascript
 {
@@ -127,7 +153,7 @@ To open settings with the command line
 }
 ```
 
-### cSpell Checker Specific Settings
+#### cSpell Checker Specific Settings
 
 ```javascript
 {
@@ -138,7 +164,35 @@ To open settings with the command line
 }
 ```
 
+## VSCode Shortcuts
+
+To view/edit shortcuts with the command line:
+
+- [ ] Type `cmd/ctrl + shift + p` to open the command palette
+
+- [ ] Type `Preferences: Open Keyboard Shortcuts`
+
+### Memorize these shortcuts to improve your workflow
+
+Cut line
+
+`ctrl/cmd x`
+
+Select multiple items
+
+`ctrl/cmd d`
+
 ## VSCode Keybindings
+
+To view/edit keybindings with the command line:
+
+- [ ] Type `cmd/ctrl + shift + p` to open the command palette
+
+- [ ] Type `Preferences: Open Keyboard Shortcuts`
+
+- [ ] Select `keybindings.json`
+
+### Please find some essential keybinding additions below
 
 ### iOS Keybindings
 
@@ -195,16 +249,6 @@ To open settings with the command line
   }
 ];
 ```
-
-## VSCode Shortcuts to Memorize
-
-### Cut line
-
-`ctrl/cmd x`
-
-### Select multiple items
-
-`ctrl/cmd d`
 
 ## VSCode Debugger
 

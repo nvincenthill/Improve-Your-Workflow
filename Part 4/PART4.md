@@ -22,8 +22,12 @@
 
 ## Deliberate Practice
 
-## A few words about VIM
+This is how developers improve. To get value out of this guide you need to deliberately practice the ideas presented in your development process.
 
-Fuck VIM.
+## A few words about Vim
+
+Fuck Vim.
+
+Just kidding Edward. I've used Vim in environments where VSCode isn't/couldn't be installed. It's aight.
 
 [**★ Star this guide if you learned something and fork me on github! ★**](https://github.com/nvincenthill/streamlineyourworkflow/)
