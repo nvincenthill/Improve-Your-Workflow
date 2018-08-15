@@ -21,5 +21,4 @@ Want to add something to this guide? Did I mess up something or has something ch
 
 ---
 
-**★ Star this guide if you learned something and fork me on github! ★**
-gi
+### **★ Star this guide if you learned something and fork me on github! ★**
