@@ -33,13 +33,29 @@ This is a simple yet ironically overlooked idea developers looking to improve th
 
 Developers that view the mechanical act of programming as difficult/cumbersome/tedious write less code, lower quality code, and are less likely to refactor working solutions to improve quality or maintainability.
 
+**This is guide is about making the process of developing easy (and more fun)**
+
 ## Improve your productivity through automation
+
+Automate anything you can as per the time-savings graph below. Extensions like Prettier and others (see Part 2) cost less than a minute to configure and provide hours if not days of time savings.
+
+**Low effort high impact tips**
+
+- [ ] Add aliases to your .gitconfig to expedite routine version control processes
+
+- [ ] Write npm scripts to automate development/build/deployment processes
+
+- [ ] Write shell scripts to automate complex but static command sequences (docker, etc.)
+
+- [ ] Master your operating system and tooling (see Part 2)
 
 ![Improve your productivity](https://imgs.xkcd.com/comics/is_it_worth_the_time.png)
 
 ## Type fast code faster
 
-There are two types of developers - those who touch type and those who don't. Prior to starting Hack Reactor I spent 36 hours of deliberate practice to improve my typing speed- the physical bottleneck to programming.
+There are two types of developers - those who touch type and those who don't.
+
+Prior to starting Hack Reactor I spent 36 hours of deliberate practice to improve my typing speed- the physical bottleneck to programming.
 
 Hanjoon types at 140 wpm - what's your excuse?
 
@@ -47,14 +63,19 @@ Hanjoon types at 140 wpm - what's your excuse?
 
 ## Push quality code everyday
 
-Basics of good commit messages
+In preparation for Hack Reactor I also decided to commit code to github everyday until I got a job a software engineer. I encourage any developer who wants to improve their skills to adopt this goal as well.
+
+Pushing code daily is not good enough though - I needed a strict criteria for what counts as a quality commit in order to improve as a developer.
 
 [Learn about how to write good commit messages](https://chris.beams.io/posts/git-commit/)
 
+Always write good commit messages. Your coworkers and/or future you will thank you for it.
+
 #### What we learned
 
-- Make good commit messages
+- Make code easy and fun to write
 - Write code that future you will enjoy reading
+- Automate every you can
 - Make good commit messages
 
 [Go to Part 2 - Become a VSCode Power User](https://github.com/nvincenthill/streamlineyourworkflow/tree/master/Part%202/PART2.md)

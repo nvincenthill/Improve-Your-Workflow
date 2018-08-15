@@ -29,6 +29,8 @@ Please find a list of important features, settings, and tools included below. I 
 
 I'm not an expert programmer and this is not an exhaustive list of VSCode features. I probably only use 5-10% of this IDE's potential during my typical development workflow. If I fail to mention your favorite feature make a pull request and I'll likely include it.
 
+---
+
 ## VSCode Command Palette
 
 This is where all the magic happens. Stop searching, opening, and configuring manually- use the command palette
@@ -46,6 +48,8 @@ This is where all the magic happens. Stop searching, opening, and configuring ma
 - [ ] No leading character indicates you are conducting a fuzzy file search. Use this feature to quickly switch to files.
 
 [VSCode Command Palette Docs](https://code.visualstudio.com/docs/getstarted/userinterface)
+
+---
 
 ## VSCode Settings
 
@@ -164,6 +168,8 @@ To open settings with the command line:
 }
 ```
 
+---
+
 ## VSCode Shortcuts
 
 To view/edit shortcuts with the command line:
@@ -181,6 +187,8 @@ Cut line
 Select multiple items
 
 `ctrl/cmd d`
+
+---
 
 ## VSCode Keybindings
 
@@ -250,129 +258,172 @@ To view/edit keybindings with the command line:
 ];
 ```
 
+---
+
 ## VSCode Debugger
 
 [VSCode Debugger Docs](https://code.visualstudio.com/docs/editor/debugging)
 
+---
+
 ## VSCode Version Control
 
 [VSCode Version Control Docs](https://code.visualstudio.com/docs/editor/versioncontrol)
-g
+
+---
 
 ## VSCode Integrated Terminal
 
 [VSCode Integrated Terminal Docs](https://code.visualstudio.com/docs/editor/integrated-terminal)
+
+---
 
 ## Emmet
 
 [Emmet Docs](https://docs.emmet.io/)
 [Emmet Cheatsheet](https://docs.emmet.io/cheat-sheet/)
 
+---
+
 ## VSCode Snippets
 
 [VSCode Snippets Docs](https://code.visualstudio.com/docs/editor/userdefinedsnippets)
 
+---
+
 ## VSCode Extensions
 
-### Please find a curated list of VSCode extensions below.
+### Please find a curated list of VSCode extensions below
 
-To view extensions:
+To view/install extensions:
 
 1. Go to VSCode extensions with `ctrl/cmd + shift + X`
 
-### AutoClose Tag
+#### AutoClose Tag
 
-_This is a description_
+_Automatically add HTML/XML close tag, same as Visual Studio IDE or Sublime Text_
 
 ```sh
 code --install-extension formulahendry.auto-close-tag
 ```
 
-### AutoImport
+#### AutoImport
+
+_Automatically finds, parses and provides code actions and code completion for all available imports_
 
 ```sh
 code --install-extension steoates.autoimport
 ```
 
-### AutoRename Tag
+#### AutoRename Tag
+
+_Automatically rename paired HTML/XML tag, same as Visual Studio IDE does_
 
 ```sh
 code --install-extension formulahendry.auto-rename-tag
 ```
 
-### Cobalt2
+#### Cobalt2
+
+_🔥 Official theme by Wes Bos_
 
 ```sh
 code --install-extension wesbos.theme-cobalt2
 ```
 
-### Code Spell Checker
+#### Code Spell Checker
+
+_A basic spell checker that works well with camelCase code._
 
 ```sh
 code --install-extension streetsidesoftware.code-spell-checker
 ```
 
-### Color Highlight - css
+#### Color Highlight - css
+
+_This extension styles css/web colors found in your document_
 
 ```sh
 code --install-extension naumovs.color-highlight
 ```
 
-### Docker
+#### Docker
+
+_Adds syntax highlighting, commands, hover tips, and linting for Dockerfile and docker-compose files_
 
 ```sh
 code --install-extension peterjausovec.vscode-docker
 ```
 
-### ESLint
+#### ESLint
+
+_Integrates ESLint JavaScript into VS Code_
 
 ```sh
 code --install-extension dbaeumer.vscode-eslint
 ```
 
-### Git History
+#### Git History
+
+_View git log, file history, compare branches or commits_
 
 ```sh
 code --install-extension donjayamanne.githistory
 ```
 
-### CSS ClassNames
+#### CSS ClassNames
+
+_CSS class name completion for the HTML class attribute based on the definitions found in your workspace_
 
 ```sh
 code --install-extension zignd.html-css-class-completion
 ```
 
-### NodeJS Modules
+#### NodeJS Modules
+
+_Autocompletes Node.js modules in import statements_
 
 ```sh
 code --install-extension leizongmin.node-module-intellisense
 ```
 
-### Prettier - Possible the best extension ever made
+#### Prettier
+
+_VS Code package to format your JavaScript / TypeScript / CSS using Prettier_
+
+[Learn how to integrate Prettier with ESLint/airbnb's style guide](https://blog.echobind.com/integrating-prettier-eslint-airbnb-style-guide-in-vscode-47f07b5d7d6a)
 
 ```sh
 code --install-extension esbenp.prettier-vscode
 ```
 
-### TODO Highlight
+#### TODO Highlight
+
+_Highlight TODO, FIXME and other annotations within your code._
 
 ```sh
 code --install-extension wayou.vscode-todo-highlight
 ```
 
-### Trailing Spaces
+#### Trailing Spaces
+
+_Highlight trailing spaces and delete them in a flash!_
 
 ```sh
 code --install-extension shardulm94.trailing-spaces
 ```
 
-### VSCode Icons
+#### VSCode Icons
+
+_Icons for Visual Studio Code_
 
 ```sh
 code --install-extension robertohuertasm.vscode-icons
 ```
 
-### VSCode Random
+#### VSCode Random
+
+_This extension generates random data directly into VS Code_
 
 ```sh
 code --install-extension jrebocho.vscode-random
@@ -380,8 +431,7 @@ code --install-extension jrebocho.vscode-random
 
 #### What we learned
 
-- Make good commit messages
-- Write code that future you will enjoy reading
-- Make good commit messages
+- Understand breadth and depth of VSCode functionality
+- Utilize key features and add-ons to maximize development experience
 
 [Go to Part 3 - Code Faster/Better/Stronger at Hack Reactor](https://github.com/nvincenthill/streamlineyourworkflow/tree/master/Part%203/PART3.md)

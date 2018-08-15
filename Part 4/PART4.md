@@ -1,4 +1,4 @@
-# Part 4 - Conclusion - Implement Change with Deliberate Practice
+# Part 4 - Conclusion - Implement Change (with Deliberate Practice)
 
 ## Table of Contents
 
@@ -22,7 +22,9 @@
 
 ## Deliberate Practice
 
-This is how developers improve. To get value out of this guide you need to deliberately practice the ideas presented in your development process.
+This is how anyone improves at any skill or technique.
+
+To get value out of this guide you need to deliberately practice the ideas presented in your development process.
 
 ## A few words about Vim
 

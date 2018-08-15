@@ -15,6 +15,10 @@
 
 ## Developing at Hack Reactor
 
+Tackle setup and configuration early
+
+Keep your tools as sharp as possible
+
 Get unstuck quickly
 
 Timebox problems
@@ -31,8 +35,8 @@ https://github.com/avincenthill/vscode-environment-automation
 
 #### What we learned
 
+- Maximize your development time through tooling and automation
 - Utilize IDE features to full effect in Hack Reactor
 - Automate setup and configuration on new machines with scripts
-- Make good commit messages
 
-[Go to Part 4 - Conclusion - Implement Change with Deliberate Practice](https://github.com/nvincenthill/streamlineyourworkflow/tree/master/Part%204/PART4.md)
+[Go to Part 4 - Conclusion - Implement Change](https://github.com/nvincenthill/streamlineyourworkflow/tree/master/Part%204/PART4.md)
