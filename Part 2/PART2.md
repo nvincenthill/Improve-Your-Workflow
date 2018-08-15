@@ -2,7 +2,7 @@
 
 ## Table of Contents
 
-1.  [Introduction](#why-are-you-reading-this)
+1.  [VSCode Command Palette](#vscode-command-palette)
 2.  [Part 2](#why-are-you-reading-this)
 3.  [Part 3](#why-are-you-reading-this)
 4.  [Part 4](#why-are-you-reading-this)
@@ -15,11 +15,13 @@
 
 ## VSCode Command Palette
 
-https://code.visualstudio.com/docs/getstarted/userinterface
+[VSCode Command Palette](https://code.visualstudio.com/docs/getstarted/userinterface)
 
 ## VSCode Settings
 
 To open settings with the command line
+
+### Emmet Specific Settings
 
 ```javascript
     {
@@ -54,6 +56,8 @@ To open settings with the command line
     }
 ```
 
+### Prettier Specific Settings
+
 ```javascript
     {
     "editor.formatOnSave": true,
@@ -62,6 +66,8 @@ To open settings with the command line
     "editor.formatOnSave": true
     }
 ```
+
+### Theme Specific Settings
 
 ```javascript
     {
@@ -86,6 +92,8 @@ To open settings with the command line
 }
 ```
 
+### Terminal Specific Settings
+
 ```javascript
 {
     "terminal.integrated.fontSize": 24,
@@ -94,7 +102,7 @@ To open settings with the command line
 }
 ```
 
-### TODO Highlighter Specific Settings
+### Todo Highlighter Specific Settings
 
 ```javascript
 {
@@ -148,31 +156,21 @@ To open settings with the command line
 ```javascript
 [
   {
+    // bubble move a line up
     key: "ctrl+shift+up",
     command: "editor.action.moveLinesUpAction",
     when: "editorTextFocus"
   },
   {
+    // bubble move a line down
     key: "ctrl+shift+down",
     command: "editor.action.moveLinesDownAction",
     when: "editorTextFocus"
   },
   {
-    key: "ctrl+shift+alt+d",
-    command: "workbench.view.debug"
-  },
-  {
-    key: "ctrl+shift+d",
-    command: "-workbench.view.debug"
-  },
-  {
+    // duplicate a line
     key: "ctrl+shift+d",
     command: "editor.action.copyLinesDownAction",
-    when: "editorTextFocus && !editorReadonly"
-  },
-  {
-    key: "ctrl+shift+alt+down",
-    command: "-editor.action.copyLinesDownAction",
     when: "editorTextFocus && !editorReadonly"
   }
 ];
@@ -184,7 +182,7 @@ To open settings with the command line
 
 ---
 
-## VSCode Shortcuts to memorize
+## VSCode Shortcuts to Memorize
 
 ### Cut line
 
@@ -196,16 +194,20 @@ To open settings with the command line
 
 ## VSCode Debugger
 
-https://code.visualstudio.com/docs/editor/debugging
+[VSCode Debugger Docs](https://code.visualstudio.com/docs/editor/debugging)
 
-## VSCode Source Control
+## VSCode Version Control
 
-https://code.visualstudio.com/docs/editor/versioncontrol
+[VSCode Version Control Docs](https://code.visualstudio.com/docs/editor/versioncontrol)
 
-## VSCode Terminal
+## VSCode Integrated Terminal
 
-// USE IT
-// STYLE IT
+[VSCode Integrated Terminal Docs](https://code.visualstudio.com/docs/editor/integrated-terminal)
+
+## Emmet
+
+[Emmet Docs](https://docs.emmet.io/)
+[Emmet Cheatsheet](https://docs.emmet.io/cheat-sheet/)
 
 ## VSCode Extensions
 
@@ -304,11 +306,6 @@ code --install-extension robertohuertasm.vscode-icons
 ```sh
 code --install-extension jrebocho.vscode-random
 ```
-
-## Emmet - Built into VSCode
-
-https://docs.emmet.io/
-https://docs.emmet.io/cheat-sheet/
 
 #### What we learned
 

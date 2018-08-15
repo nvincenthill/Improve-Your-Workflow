@@ -19,4 +19,4 @@ they will see how you code
 don't use this incredible IDE as a crutch
 A word about VIM
 
-[Star/Fork this if you learned something](https://github.com/nvincenthill/streamlineyourworkflow/tree/master/README.md)
+[Star/Fork this if you learned something](https://github.com/nvincenthill/streamlineyourworkflow/)
