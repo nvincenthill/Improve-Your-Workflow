@@ -24,71 +24,71 @@ To open settings with the command line
 ### Emmet Specific Settings
 
 ```javascript
-    {
-    // An array of languages where Emmet abbreviations should not be expanded.
-    "emmet.excludeLanguages": [
+{
+  // An array of languages where Emmet abbreviations should not be expanded.
+  "emmet.excludeLanguages": [
     "markdown"
-    ],
-    // Path to a folder containing Emmet profiles and snippets.'
-    // Enable Emmet abbreviations in languages that are not supported by default. Add a mapping here between the language and emmet supported language.
-    // E.g.: {"vue-html": "html", "javascript": "javascriptreact"}
-    "emmet.includeLanguages": {},
-    // When set to false, the whole file is parsed to determine if current position is valid for expanding Emmet abbreviations. When set to true, only the content around the current position in css/scss/less files is parsed.
-    "emmet.optimizeStylesheetParsing": true,
-    // Preferences used to modify behavior of some actions and resolvers of Emmet.
-    "emmet.preferences": {},
-    // Shows possible Emmet abbreviations as suggestions. Not applicable in stylesheets or when emmet.showExpandedAbbreviation is set to "never".
-    "emmet.showAbbreviationSuggestions": true,
-    // Shows expanded Emmet abbreviations as suggestions.
-    // The option "inMarkupAndStylesheetFilesOnly" applies to html, haml, jade, slim, xml, xsl, css, scss, sass, less and stylus.
-    // The option "always" applies to all parts of the file regardless of markup/css.
-    "emmet.showExpandedAbbreviation": "always",
-    // If true, then Emmet suggestions will show up as snippets allowing you to order them as per editor.snippetSuggestions setting.
-    "emmet.showSuggestionsAsSnippets": false,
-    // Define profile for specified syntax or use your own profile with specific rules.
-    "emmet.syntaxProfiles": {},
-    // When enabled, Emmet abbreviations are expanded when pressing TAB.
-    "emmet.triggerExpansionOnTab": false,
-    // Variables to be used in Emmet snippets
-    "emmet.variables": {},
-    //Prettier settings
-    // Set the default
-    }
+  ],
+  // Path to a folder containing Emmet profiles and snippets.'
+  // Enable Emmet abbreviations in languages that are not supported by default. Add a mapping here between the language and emmet supported language.
+  // E.g.: {"vue-html": "html", "javascript": "javascriptreact"}
+  "emmet.includeLanguages": {},
+  // When set to false, the whole file is parsed to determine if current position is valid for expanding Emmet abbreviations. When set to true, only the content around the current position in css/scss/less files is parsed.
+  "emmet.optimizeStylesheetParsing": true,
+  // Preferences used to modify behavior of some actions and resolvers of Emmet.
+  "emmet.preferences": {},
+  // Shows possible Emmet abbreviations as suggestions. Not applicable in stylesheets or when emmet.showExpandedAbbreviation is set to "never".
+  "emmet.showAbbreviationSuggestions": true,
+  // Shows expanded Emmet abbreviations as suggestions.
+  // The option "inMarkupAndStylesheetFilesOnly" applies to html, haml, jade, slim, xml, xsl, css, scss, sass, less and stylus.
+  // The option "always" applies to all parts of the file regardless of markup/css.
+  "emmet.showExpandedAbbreviation": "always",
+  // If true, then Emmet suggestions will show up as snippets allowing you to order them as per editor.snippetSuggestions setting.
+  "emmet.showSuggestionsAsSnippets": false,
+  // Define profile for specified syntax or use your own profile with specific rules.
+  "emmet.syntaxProfiles": {},
+  // When enabled, Emmet abbreviations are expanded when pressing TAB.
+  "emmet.triggerExpansionOnTab": false,
+  // Variables to be used in Emmet snippets
+  "emmet.variables": {},
+  //Prettier settings
+  // Set the default
+}
 ```
 
 ### Prettier Specific Settings
 
 ```javascript
-    {
-    "editor.formatOnSave": true,
-    // Enable per-language
-    "[javascript]": {
-    "editor.formatOnSave": true
-    }
+{
+  "editor.formatOnSave": true,
+  // Enable per-language
+  "[javascript]": {
+  "editor.formatOnSave": true
+}
 ```
 
 ### Theme Specific Settings
 
 ```javascript
-    {
-    //Theme settings
-    "workbench.colorTheme": "Cobalt2",
-    "editor.fontFamily": "Inconsolata, Operator Mono, Menlo, Monaco, 'Courier New', monospace",
-    "editor.fontSize": 20,
-    "editor.lineHeight": 25,
-    "editor.letterSpacing": 0.5,
-    "files.trimTrailingWhitespace": true,
-    "editor.fontWeight": "400",
-    "prettier.eslintIntegration": true,
-    "editor.cursorStyle": "line",
-    "editor.cursorWidth": 5,
-    "editor.cursorBlinking": "solid",
-    "editor.wordWrap": "on",
-    "editor.renderWhitespace": "all",
-    "window.zoomLevel": 2,
-    "workbench.startupEditor": "newUntitledFile",
-    "explorer.confirmDragAndDrop": false,
-    "explorer.confirmDelete": false,
+{
+  //Theme settings
+  "workbench.colorTheme": "Cobalt2",
+  "editor.fontFamily": "Inconsolata, Operator Mono, Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontSize": 20,
+  "editor.lineHeight": 25,
+  "editor.letterSpacing": 0.5,
+  "files.trimTrailingWhitespace": true,
+  "editor.fontWeight": "400",
+  "prettier.eslintIntegration": true,
+  "editor.cursorStyle": "line",
+  "editor.cursorWidth": 5,
+  "editor.cursorBlinking": "solid",
+  "editor.wordWrap": "on",
+  "editor.renderWhitespace": "all",
+  "window.zoomLevel": 2,
+  "workbench.startupEditor": "newUntitledFile",
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
 }
 ```
 
@@ -96,9 +96,9 @@ To open settings with the command line
 
 ```javascript
 {
-    "terminal.integrated.fontSize": 24,
-    "terminal.integrated.lineHeight": 1,
-    "terminal.integrated.fontFamily": "Ubuntu mono"
+  "terminal.integrated.fontSize": 24,
+  "terminal.integrated.lineHeight": 1,
+  "terminal.integrated.fontFamily": "Ubuntu mono"
 }
 ```
 
@@ -106,11 +106,11 @@ To open settings with the command line
 
 ```javascript
 {
-    "todohighlight.isEnable": true,
-    "todohighlight.keywords": [
-      "TBD",
-      "TODO"
-    ]
+  "todohighlight.isEnable": true,
+  "todohighlight.keywords": [
+    "TBD",
+    "TODO"
+  ]
 }
 ```
 
@@ -118,9 +118,9 @@ To open settings with the command line
 
 ```javascript
 {
-    "cSpell.userWords": [
-      "exampleWordToAddToGlobalDictionary",
-    ]
+  "cSpell.userWords": [
+    "exampleWordToAddToGlobalDictionary",
+  ]
 }
 ```
 
