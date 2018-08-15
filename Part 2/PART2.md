@@ -258,6 +258,14 @@ To view/edit keybindings with the command line:
 ];
 ```
 
+#### Now these helpful shortcuts are available to you
+
+Bubble move a line up <kbd>cmd/ctrl</kbd> + <kbd>shift</kbd> + <kbd>up</kbd>
+
+Bubble move a line down <kbd>cmd/ctrl</kbd> + <kbd>shift</kbd> + <kbd>down</kbd>
+
+Duplicate a line <kbd>cmd/ctrl</kbd> + <kbd>shift</kbd> + <kbd>d</kbd>
+
 [VSCode Keybinding docs](https://code.visualstudio.com/docs/getstarted/keybindings)
 
 ---

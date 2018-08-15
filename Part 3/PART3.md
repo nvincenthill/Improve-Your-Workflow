@@ -27,7 +27,9 @@ Stay focused
 
 ## Toy problems with VSCode
 
-If you're not using VSCode's integrated debugger, terminal, and version control when you're solving toy problems you're probably not optimizing your limited time. Stop switching tabs, using Chrome snippets, and letting your tools slow you down.
+If you're not using VSCode's integrated debugger, terminal, and version control when you're solving toy problems you're probably not optimizing your limited time.
+
+Stop switching tabs, using Chrome snippets, and letting your tools slow you down.
 
 ## Auto-configure your development environment
 
