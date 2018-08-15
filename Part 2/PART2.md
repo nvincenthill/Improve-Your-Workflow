@@ -2,10 +2,16 @@
 
 ## Table of Contents
 
-1.  [VSCode Command Palette](#vscode-command-palette)
-2.  [Part 2](#why-are-you-reading-this)
-3.  [Part 3](#why-are-you-reading-this)
-4.  [Part 4](#why-are-you-reading-this)
+1.  [Command Palette](#vscode-command-palette)
+1.  [Settings](#vscode-settings)
+1.  [Keybindings](#vscode-keybindings)
+1.  [Shortcuts to Memorize](#vscode-shortcuts-to-memorize)
+1.  [Debugger](#vscode-debugger)
+1.  [Version Control](#vscode-version-control)
+1.  [Integrated Terminal](#vscode-integrated-terminal)
+1.  [Emmet](#vscode-emmet)
+1.  [Snippets](#vscode-snippets)
+1.  [Extensions](#vscode-extensions)
 
 ---
 
@@ -51,8 +57,6 @@ To open settings with the command line
   "emmet.triggerExpansionOnTab": false,
   // Variables to be used in Emmet snippets
   "emmet.variables": {},
-  //Prettier settings
-  // Set the default
 }
 ```
 
@@ -60,6 +64,7 @@ To open settings with the command line
 
 ```javascript
 {
+  //Prettier settings
   "editor.formatOnSave": true,
   // Enable per-language
   "[javascript]": {
@@ -96,6 +101,7 @@ To open settings with the command line
 
 ```javascript
 {
+  // Terminal settings
   "terminal.integrated.fontSize": 24,
   "terminal.integrated.lineHeight": 1,
   "terminal.integrated.fontFamily": "Ubuntu mono"
@@ -106,6 +112,7 @@ To open settings with the command line
 
 ```javascript
 {
+  // Todo Highlighter settings
   "todohighlight.isEnable": true,
   "todohighlight.keywords": [
     "TBD",
@@ -118,6 +125,7 @@ To open settings with the command line
 
 ```javascript
 {
+  // cSpell settings
   "cSpell.userWords": [
     "exampleWordToAddToGlobalDictionary",
   ]
@@ -153,6 +161,12 @@ To open settings with the command line
 
 ### Linux Keybindings
 
+---
+
+> _Linux is only free if your time has no value. - Jamie Zawinski_
+
+---
+
 ```javascript
 [
   {
@@ -176,12 +190,6 @@ To open settings with the command line
 ];
 ```
 
----
-
-> _Linux is only free if your time has no value. - Jamie Zawinski_
-
----
-
 ## VSCode Shortcuts to Memorize
 
 ### Cut line
@@ -199,6 +207,7 @@ To open settings with the command line
 ## VSCode Version Control
 
 [VSCode Version Control Docs](https://code.visualstudio.com/docs/editor/versioncontrol)
+g
 
 ## VSCode Integrated Terminal
 
@@ -209,9 +218,21 @@ To open settings with the command line
 [Emmet Docs](https://docs.emmet.io/)
 [Emmet Cheatsheet](https://docs.emmet.io/cheat-sheet/)
 
+## VSCode Snippets
+
+[VSCode Snippets Docs](https://code.visualstudio.com/docs/editor/userdefinedsnippets)
+
 ## VSCode Extensions
 
+### Please find a curated list of VSCode extensions below.
+
+To view extensions:
+
+1. Go to VSCode extensions with `ctrl/cmd + shift + X`
+
 ### AutoClose Tag
+
+_This is a description_
 
 ```sh
 code --install-extension formulahendry.auto-close-tag

@@ -3,9 +3,9 @@
 ## Table of Contents
 
 1.  [Developing at Hack Reactor](#why-are-you-reading-this)
-2.  [How to code fast at Hack Reactor](#why-are-you-reading-this)
-3.  [Toy problems with VSCode](#why-are-you-reading-this)
-4.  [Auto-configure your development environment](#why-are-you-reading-this)
+1.  [How to code fast at Hack Reactor](#why-are-you-reading-this)
+1.  [Toy problems with VSCode](#why-are-you-reading-this)
+1.  [Auto-configure your development environment](#why-are-you-reading-this)
 
 ---
 
@@ -13,10 +13,18 @@
 
 ---
 
-Developing at Hack Reactor
-Toy problems
+## Developing at Hack Reactor
+
+Get unstuck quickly
+Timebox problems
+Stay focused
+
+## Toy problems
+
 Use debugger, terminal, and git all from the same window!
-Algo-config your setup at HR
+
+## Auto-configure your development environment
+
 https://github.com/avincenthill/vscode-environment-automation
 
 #### What we learned

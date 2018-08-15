@@ -3,9 +3,9 @@
 ## Table of Contents
 
 1.  [Introduction](#why-are-you-reading-this)
-2.  [Part 2](#why-are-you-reading-this)
-3.  [Part 3](#why-are-you-reading-this)
-4.  [Part 4](#why-are-you-reading-this)
+1.  [Part 2](#why-are-you-reading-this)
+1.  [Part 3](#why-are-you-reading-this)
+1.  [Part 4](#why-are-you-reading-this)
 
 ---
 
@@ -22,6 +22,8 @@
 - [ ] XXXX?
 
 ---
+
+![Improve your productivity](https://imgs.xkcd.com/comics/is_it_worth_the_time.png)
 
 ## Type fast code faster
 
