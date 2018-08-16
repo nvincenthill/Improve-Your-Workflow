@@ -15,15 +15,19 @@
 
 ## Developing at Hack Reactor
 
-Tackle setup and configuration early
+### Here are some common blockers I've personally experienced or witnessed and how to ameliorate them
 
-Keep your tools as sharp as possible
+#### Problem - _Wasted time on development environment setup_
 
-Get unstuck quickly
+**Solution** - Arrive early and use scripts (see below) to automate your development environment setup to maximize development time during sprints.
 
-Timebox problems
+#### Problem - _Wasted time on resolving webpack/babel/database configuration issues_
 
-Stay focused
+**Solution** - Tackle setup and configuration issues ASAP, use the help desk to get yourself unstuck quickly. These are typically blocking problems that will prevent any progress until resolved. They are the silent killer of your code production and productivity.
+
+#### Problem - _Wasted time on futile attempts to solve/corn-maze non-blocking bugs and technical challenges_
+
+**Solution** - Time-box non-blocking problems and stay focused and motivated about the MVP goals of the current sprint. Approach problems clinically and maintain perspective on higher-level goals and objectives.
 
 ## Toy problems with VSCode
 
@@ -35,9 +39,9 @@ Stop switching tabs, using Chrome snippets, and letting your tools slow you down
 
 You might be thinking - "VSCode seems cool and all, but I don't want to configure everything on a pairing station and then have DeepFreeze wipe all my settings/configs overnight. I'll just stick with Sublime \<sigh>"
 
-## ★WRONG★
+### ★ WRONG ★
 
-Automate your development environment setup and configuration with one command.
+Automate your development environment setup and configuration with **one command**.
 
 Check out this script my brother [Alex](https://github.com/avincenthill) wrote for this exact problem!
 

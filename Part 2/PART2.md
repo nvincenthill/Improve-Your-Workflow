@@ -25,6 +25,12 @@
 
 I've used a variety of other text editors (Brackets, Atom, Sublime, and Vim). I prefer VSCode for its robust IDE functionality customizable settings, and user-friendly interface.
 
+1. Install VSCode
+
+- [ ] [Install on iOS](https://code.visualstudio.com/docs/setup/mac)
+- [ ] [Install on Windows](https://code.visualstudio.com/docs/setup/windows)
+- [ ] [Install on Linux](https://code.visualstudio.com/docs/setup/linux)
+
 Please find a list of important features, settings, and tools included below. I consider knowledge of these functions essential to improving the speed and ease your development workflow with VSCode.
 
 I'm not an expert programmer and this is not an exhaustive list of VSCode features. I probably only use 5-10% of this text editor's potential during my typical development workflow. If I fail to mention your favorite feature make a pull request and I'll likely include it.
