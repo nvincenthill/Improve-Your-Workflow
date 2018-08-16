@@ -27,25 +27,37 @@ I've used a variety of other text editors (Brackets, Atom, Sublime, and Vim). I 
 
 Please find a list of important features, settings, and tools included below. I consider knowledge of these functions essential to improving the speed and ease your development workflow with VSCode.
 
-I'm not an expert programmer and this is not an exhaustive list of VSCode features. I probably only use 5-10% of this IDE's potential during my typical development workflow. If I fail to mention your favorite feature make a pull request and I'll likely include it.
+I'm not an expert programmer and this is not an exhaustive list of VSCode features. I probably only use 5-10% of this text editor's potential during my typical development workflow. If I fail to mention your favorite feature make a pull request and I'll likely include it.
 
 ---
 
 ## VSCode Command Palette
 
-This is where all the magic happens. Stop searching, opening, and configuring manually- use the command palette
+This is where all the magic happens. Stop searching, opening, and configuring manually- use the command palette!
+
+### Command Palette
 
 - [ ] Type <kbd>cmd/ctrl</kbd> + <kbd>shift</kbd> + <kbd>p</kbd> to open the command palette.
 
 - [ ] The default `>` indicates you are in the VSCode command shell - this is where native and extension commands live.
 
+### Symbolic Search
+
 - [ ] Type <kbd>cmd/ctrl</kbd> + <kbd>shift</kbd> + <kbd>o</kbd> to open the symbolic search palette.
 
 - [ ] The default `@` indicates you are doing a symbolic search - this is a smart search that searches by 'symbols' present in the currently open file. In Javascript, symbols are function declarations, in CSS they are selectors, and in markdown they are headers- etc.
 
+### Fuzzy File Search
+
 - [ ] Type <kbd>cmd/ctrl</kbd> + <kbd>p</kbd> to open the fuzzy file search.
 
 - [ ] No leading character indicates you are conducting a fuzzy file search. Use this feature to quickly switch to files.
+
+### Go to Line Search
+
+- [ ] Type <kbd>cmd/ctrl</kbd> + <kbd>g</kbd> to open the Go to Line search.
+
+- [ ] The default `:` indicates you are in the Go to Line search - this allows you to quickly go to a specific line.
 
 [VSCode Command Palette Docs](https://code.visualstudio.com/docs/getstarted/userinterface)
 
@@ -239,7 +251,7 @@ To view/edit keybindings with the command line:
 [
   {
     // bubble move a line up
-    key: "ctrl+shift+up",
+    key: "ctrl+shift+gup",
     command: "editor.action.moveLinesUpAction",
     when: "editorTextFocus"
   },
@@ -294,13 +306,15 @@ To use the VSCode integrated version control:
 
 To use the VSCode integrated terminal:
 
-1. Go to VSCode extensions with <kbd>cmd/ctrl</kbd> + <kbd>`</kbd>
+1. Show VSCode integrated terminal with <kbd>cmd/ctrl</kbd> + <kbd>`</kbd>
 
 [VSCode Integrated Terminal Docs](https://code.visualstudio.com/docs/editor/integrated-terminal)
 
 ---
 
 ## Emmet
+
+Built into VSCode and accessed like snippets.
 
 [Emmet Docs](https://docs.emmet.io/)
 
@@ -309,6 +323,12 @@ To use the VSCode integrated terminal:
 ---
 
 ## VSCode Snippets
+
+To view/create VSCode Snippets:
+
+1. Go to the VSCode Command Palette with <kbd>cmd/ctrl</kbd> + <kbd>shift</kbd> + <kbd>p</kbd>
+1. Type `Preferences: Configure User Snippets`
+1. To create a new snippet, type `New Global Snippets File`
 
 [VSCode Snippets Docs](https://code.visualstudio.com/docs/editor/userdefinedsnippets)
 
