@@ -23,7 +23,7 @@
 
 ## Why VSCode?
 
-I've used a variety of other text editors (Brackets, Atom, Sublime, and Vim). I prefer VSCode for its robust IDE functionality customizable settings, and user-friendly interface.
+I've used a variety of other text editors (Brackets, Atom, Sublime, and Vim). I prefer VSCode for its robust IDE functionality, customizable settings, and user-friendly interface.
 
 1. Install VSCode
 
