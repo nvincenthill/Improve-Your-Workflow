@@ -27,7 +27,7 @@ I've used a variety of other text editors (Brackets, Atom, Sublime, and Vim). I 
 
 1. Install VSCode
 
-- [ ] [Install on iOS](https://code.visualstudio.com/docs/setup/mac)
+- [ ] [Install on macOS](https://code.visualstudio.com/docs/setup/mac)
 - [ ] [Install on Windows](https://code.visualstudio.com/docs/setup/windows)
 - [ ] [Install on Linux](https://code.visualstudio.com/docs/setup/linux)
 
@@ -202,7 +202,7 @@ Cut line <kbd>cmd/ctrl</kbd> + <kbd>x</kbd>
 
 Select multiple items <kbd>cmd/ctrl</kbd> + <kbd>d</kbd>
 
-[Complete list for iOS](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf)
+[Complete list for macOS](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf)
 
 [Complete list for Windows](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf)
 
@@ -220,7 +220,7 @@ To view/edit keybindings with the command line:
 
 ### Please find some essential keybinding additions below:
 
-#### iOS
+#### macOS
 
 ```javascript
 [
