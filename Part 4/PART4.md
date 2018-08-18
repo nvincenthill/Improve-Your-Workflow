@@ -32,4 +32,6 @@ Think to yourself- is there a faster/better/stronger way to do what I'm about to
 
 Fuck Vim.
 
+No but seriously I think VSCode is much easier/more accessible. I use Vim in environments where VSCode isn't/can't be installed. Definitely a useful tool put in your toolbox.
+
 [**★ Star this guide if you learned something and fork me on github! ★**](https://github.com/nvincenthill/streamlineyourworkflow/)
