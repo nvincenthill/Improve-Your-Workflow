@@ -61,7 +61,7 @@ This is where all the magic happens. Stop searching, opening, and configuring ma
 
 ### Go to Line Search
 
-- [ ] Type <kbd>cmd/ctrl</kbd> + <kbd>g</kbd> to open the Go to Line search.
+- [ ] Type <kbd>ctrl</kbd> + <kbd>g</kbd> to open the Go to Line search.
 
 - [ ] The default `:` indicates you are in the Go to Line search - this allows you to quickly go to a specific line.
 
